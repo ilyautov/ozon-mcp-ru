@@ -1,0 +1,37 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ilyautov/ozon-mcp-ru",
+  "title": "Ozon Seller MCP (RU)",
+  "description": "API Ozon Seller в ИИ-ассистенте: товары, заказы, цены, остатки, финансы, отзывы",
+  "version": "0.5.3",
+  "repository": {
+    "url": "https://github.com/ilyautov/ozon-mcp-ru",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "ozon-mcp-ru",
+      "version": "0.5.3",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "OZON_CLIENT_ID",
+          "description": "Client-Id из кабинета seller.ozon.ru, Настройки → API-ключи.",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "OZON_API_KEY",
+          "description": "Api-Key из той же пары. Оба уходят в одноимённые заголовки.",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
