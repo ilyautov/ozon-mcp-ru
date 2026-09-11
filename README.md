@@ -42,11 +42,17 @@ Claude Desktop, `claude_desktop_config.json`:
   "mcpServers": {
     "ozon": {
       "command": "uvx",
-      "args": ["ozon-mcp-ru"],
+      "args": ["--from", "git+https://github.com/ilyautov/ozon-mcp-ru", "ozon-mcp-ru"],
       "env": { "OZON_CLIENT_ID": "...", "OZON_API_KEY": "..." }
     }
   }
 }
+```
+
+Третий путь, если агент умеет скиллы: он поставит сервер и настроит клиент сам.
+
+```bash
+npx skills add ilyautov/ozon-mcp-ru
 ```
 
 ## Ключи
