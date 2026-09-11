@@ -20,7 +20,7 @@ Cline: `cline_mcp_settings.json`.
   "mcpServers": {
     "ozon": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/ilyautov/ozon-mcp-ru", "ozon-mcp-ru"],
+      "args": ["ozon-mcp-ru"],
       "env": {
         "OZON_CLIENT_ID": "<значение>",
         "OZON_API_KEY": "<значение>"
