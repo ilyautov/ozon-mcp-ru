@@ -1,6 +1,6 @@
 [project]
 name = "ozon-mcp-ru"
-version = "0.5.3"
+version = "0.5.4"
 description = "API Ozon Seller для ИИ-ассистентов: товары, заказы FBS и FBO, цены, остатки, финансы, отзывы"
 keywords = ["mcp", "model-context-protocol", "ozon", "ozon-api", "ozon-seller", "озон", "seller-api", "marketplace", "ecommerce", "russia", "claude"]
 readme = "README.md"
