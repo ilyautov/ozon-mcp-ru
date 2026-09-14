@@ -3,7 +3,7 @@
   "name": "io.github.ilyautov/ozon-mcp-ru",
   "title": "Ozon Seller MCP (RU)",
   "description": "API Ozon Seller в ИИ-ассистенте: товары, заказы, цены, остатки, финансы, отзывы",
-  "version": "0.5.4",
+  "version": "0.6.0",
   "websiteUrl": "https://marketplaces-mcp-ru.aifrontier.tech/ozon-api.html",
   "repository": {
     "url": "https://github.com/ilyautov/ozon-mcp-ru",
@@ -14,7 +14,7 @@
       "registryType": "pypi",
       "registryBaseUrl": "https://pypi.org",
       "identifier": "ozon-mcp-ru",
-      "version": "0.5.4",
+      "version": "0.6.0",
       "runtimeHint": "uvx",
       "transport": {
         "type": "stdio"

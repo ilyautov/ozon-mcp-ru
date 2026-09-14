@@ -1,6 +1,6 @@
 [project]
 name = "ozon-mcp-ru"
-version = "0.5.4"
+version = "0.6.0"
 description = "API Ozon Seller для ИИ-ассистентов: товары, заказы FBS и FBO, цены, остатки, финансы, отзывы"
 keywords = ["mcp", "model-context-protocol", "ozon", "ozon-api", "ozon-seller", "озон", "seller-api", "marketplace", "ecommerce", "russia", "claude"]
 readme = "README.md"
@@ -10,7 +10,7 @@ authors = [{ name = "Ilya Utov" }]
 dependencies = [
     # Весь код приходит отсюда. Версия фиксируется снизу и держится в пределах
     # мажорной: обёртка обязана ставить то ядро, про которое написан README.
-    "marketplaces-mcp-ru>=0.5.3,<1",
+    "marketplaces-mcp-ru>=0.6.0,<1",
 ]
 
 [project.urls]
